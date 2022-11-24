@@ -133,7 +133,7 @@ class AlienInvasion:
             self.ship.center_ship()
 
             # Pause.
-            pygame.time.wait(15)
+            pygame.time.wait(500)
         else:
             self.stats.game_active = False
 
