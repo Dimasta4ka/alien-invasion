@@ -1,7 +1,8 @@
 import pygame
 
+from pygame.sprite import Sprite
 
-class Ship:
+class Ship(Sprite):
 
     def __init__(self, ai_game):
         self.center = None
